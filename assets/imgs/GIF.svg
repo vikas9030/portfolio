@@ -1,0 +1,8 @@
+<svg id="output-image" xmlns="http://www.w3.org/2000/svg"><filter id="cartoon-filter">
+        <feComponentTransfer in="SourceAlpha">
+          <feFuncA type="table" tableValues="1 0"/>
+        </feComponentTransfer>
+        <feGaussianBlur stdDeviation="3"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -5"/>
+        <feBlend mode="multiply"/>
+      </filter><image width="80" height="80" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA0VJREFUeF7tmruqFEEQhr+DJiKaeQmNRFATMTFQQRNDQ1EQwfw8hfgAGhkZqGBgZiAGJoogGoigYKgIKvoCB8XLNPbCMpxxavvfmukzW5Msy1ZNV39V9U9vT68Rl0RgTfIOZwKgWAQBMACKBET3qMAAKBIQ3aMCA6BIQHRXK/CPOP4y3d8DZ4Avy7xp372mBDDNdXCIywKo3qcv0X2/z3fCoBDVic8CV+/TB6jv91kcb4EjQPo8C3zrc1R/VyfeBfA58Bs4qQZo9J/Fsa8Z88mQEL0APgPSpE4ZAahm84ncOyREL4AqkEX9252wJ0M86v1gmSrAlIBBIHoBHEsD2/Nxb2cvgGNqYLv9XSF6AVxUw1T7vuWUWzuvCkA3TfQCWIsGurezF8CaNNAVohdAVdMW9Vd2hdLfvrReLLoC4D9sxRyKHXO6avkvXFQ9+e9mlQCH1sDJASyd0NB+fevH3ni8Wrh34EoMqgU49DqwNB/VAgwNNKZUzqBxHC8zOf7QwFgHSsVZbQWGBhrzKmfQOI6XmRx/aGBooFSc1VZgaKAxr3IGjeN4mcnxhwZucQ1MO8HX8xGQVA1v8vfHcyXXrpKu3eeSYqi2Ai0aeAh4CewCPgDfgeN5k/M88LBj03YlAFo06x5wsTlJ9aA5v3IB+NWAvALcBl4AJ3oAllRcO65qK9AC8CuQjqMlUAlY19XVwpMGaNkP/AlsBw4AH+feT8xA7gA2NnlvsVkL3wTWLVlr2VRbgRYNTIfB9wOnm8PhT4Fb+e3YVSDB3Znb2vIQmRxASzHcBS4Bj4D00PjRtPK5/P01cCw08P8YDwKvgN3AZ+BTfgpvAy4Dd1YZoEUDE5/DjQ5ey22cwL0DbgD3DevAST9ELBpoaXNvm2ofIt4TX9b9A6BIslqAVg0U5y+7VwswNNCYWzmDxnG8zOT41aWAHIAXGeN95fi9AIYGihkMDRQBGt1HN6u2hUcnYwygWoChgWIGQwNFgEb30c2qbeHRyRgDqBZgaKCYwdBAEaDRfXSzalt4dDLGAKoBaIy3WrPiPYFix4yi65xKtaQ6AivmUOy41Qh5xRsARbIBMACKBET3qMAAKBIQ3aMCA6BIQHSPChQB/gXyMhFgkkZvtgAAAABJRU5ErkJggg=="/></svg>
