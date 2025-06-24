@@ -1,0 +1,8 @@
+<svg id="output-image" xmlns="http://www.w3.org/2000/svg"><filter id="cartoon-filter">
+        <feComponentTransfer in="SourceAlpha">
+          <feFuncA type="table" tableValues="1 0"/>
+        </feComponentTransfer>
+        <feGaussianBlur stdDeviation="3"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -5"/>
+        <feBlend mode="multiply"/>
+      </filter><image width="48" height="48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAalJREFUaEPtmk1KBDEQhb/B/1sogpdQd3oKEfQCgi5EXKgjguhGF+4V9BYu1VMo6C38RxNohmaYcV5KS2ioht50Xl6qXqWSxesWDX9aDY8fSwITwBawBEwCQ78U4RN4Aq6AI+C5hK80gRz8dXpnSxYpwN4BC0mgF3VOaQJtYEclN+J2gX11bmkCD8B0Rb4JnALvPRY7T9tipev7BbDaAzsCrFfbJw/fAzNeCXzU9vwY8NZnoTngpmtsPm2P2z74UeC1Gss9MeyVwFeNeFD11lKC2xX+ADgbEFQJd4dqUBDda5oWEdU0cUcCoroKLCrgppJCDEQFFKFMKinEUQFPlTy54x4Q1VVgpv6KCijSipiogCKUSSWFOO4BT5U8ueMUEtVVYKb+igoo0oqYqIAilEklhTjuAU+VPLnjFBLVVWCm/ooKKNKKmKiAIpRJJYU47gFPlTy5S08h1WISY+7A/s1iqpt82Ss++cEnU5PIwW8Ah9UEV5NvLzVbtkE9H1eb1dvozi7moqfRnZUfB7JHvAxM/dGvBo/Jf74EjkuCz8GUNrHn1jFxNz6Bb7+IcDEy0UrQAAAAAElFTkSuQmCC"/></svg>
